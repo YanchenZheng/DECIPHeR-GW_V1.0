@@ -1,0 +1,9 @@
+! MODEL STRUCTURES
+ 
+1	2	! Number of different model structure types (must relate to HRU Meta File) and number of model components
+model_layer	rootzone	unsatzone
+1	1	1
+
+! MODEL CHOICES ROUTING
+
+1	! VELOCITY MODE (current options V_MODE_CONSTANT = 1 or V_MODE_SLOPE = 2)

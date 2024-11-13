@@ -1,0 +1,34 @@
+! DECIPHeR settings file	
+	
+param_file  :	SETTINGS\params_v2.dat
+mstruct_file:	SETTINGS\model_structure.dat
+n_cat_setups:	002
+n_flow_setps:	002
+	
+--- DATA LOCATIONS AND SETTINGS FOR ALL CATCHMENT SETUPS -----------------------	
+	
+setup_name:	Gauge 52016	
+HRU_filepath:	INPUT\DTA_R2\52016000_dyna_hru.dat
+HRU_filepath:	INPUT\DTA_R2\52016000_hru_meta.dat
+HRU_filepath:	INPUT\DTA_R2\52016000_flow_conn.dat
+HRU_filepath:	INPUT\DTA_R2\52016000_riv_data.dat
+HRU_filepath:	INPUT\DTA_R2\52016000_flow_point.dat
+	
+setup_name:	Gauge 39101	
+HRU_filepath:	INPUT\DTA_R2\39101000_dyna_hru.dat
+HRU_filepath:	INPUT\DTA_R2\39101000_hru_meta.dat
+HRU_filepath:	INPUT\DTA_R2\39101000_flow_conn.dat
+HRU_filepath:	INPUT\DTA_R2\39101000_riv_data.dat
+HRU_filepath:	INPUT\DTA_R2\39101000_flow_point.dat
+	
+--- DATA LOCATION AND SETTINGS FOR ALL INPUT SETUPS (must be n_flow_setups entries) : -----------------------	
+	
+setup_name  :	52016	
+flow_file   :	INPUT\52016000_obsq.dat
+precip_file :	INPUT\52016000_rain.dat
+evap_file   :	INPUT\52016000_PET.dat
+	
+setup_name  :	39101	
+flow_file   :	INPUT\39101000_obsq.dat
+precip_file :	INPUT\39101000_rain.dat
+evap_file   :	INPUT\39101000_PET.dat

@@ -1,0 +1,17 @@
+! DECIPHeR-GW project file for catchments runs
+2  ! total number of gauges	
+	
+project_name:	Gauge id:52016	
+project_dir :	C:\GWmodel\NewModelCp\
+projectfiles:	SETTINGS\settings
+project_out :	OUTPUT\GW_52016
+dir_mpr_ctrl:	SETTINGS\MPR_control.dat
+mpr_filemgr :	SETTINGS\MPR_filemgr_52016.dat
+	
+project_name:	Gauge id:39101	
+project_dir :	C:\GWmodel\NewModelCp\
+projectfiles:	SETTINGS\settings
+project_out :	OUTPUT\GW_39101
+dir_mpr_ctrl:	SETTINGS\MPR_control.dat
+mpr_filemgr :	SETTINGS\MPR_filemgr_39101.dat
+

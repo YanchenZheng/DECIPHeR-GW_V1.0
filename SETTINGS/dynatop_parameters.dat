@@ -1,0 +1,13 @@
+! DYMOND parameter ranges - will only apply to fixed or global parameter selections. 
+min_range	if_fixed	max_range	param_name	
+    0.001           0.05             0.06   	SZM
+   -7.00           -2.0              1.00    	LnTo
+    0.02            0.5             0.8    	SRmax
+    0.00            0.05             0.01   	SRinit
+ 1500.00         4000.00          6000.00     	CHV
+    0.10            2.0             40.00     	Td
+    0.20            0.4              0.90     	dth1
+    0.20            0.5              1.40    	Smax
+    0.00            0.0              0.03     	fracdir
+    0.01            0.5            2.27       B
+    0.00001            0.2            15.21       Ks

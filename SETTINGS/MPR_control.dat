@@ -1,0 +1,30 @@
+! Settings file for MPR application to Dynamic TOPMODEL. 
+n_pm_maps,	1	! number of parameter maps to produce/ simulations 
+start_seed,	5	! starting seed for random number generator for global parameters. Usually set to 1, but can start from any number in the sequence. 	
+save_pm_maps,	0	! Set to 2 if you require saved high-res and upscaled param maps, 1 if you require saved high-res parameter maps, 0 otherwise. Warning: This vastly increases time to run and maps are large!
+save_bp_maps,  	0	! Set to 1 if you require saved basin predictor maps, clipped to the same area as your HRU input map. These can later be used as inputs, for faster runs. 
+pedo_tf_SZM,	5	! Pedo-transfer equation for SZM 	Options:	0: fixed parameter	1: global parameter	2: f(sand, clay) per depth	!3: same as 2, but using same parameters as lnto
+pedo_tf_LnTo,	3	! Pedo-transfer equation for LnTo,	Options:	0: fixed parameter	1: global parameter 	2: f(sand, clay) if mineral or f(Db, OrgM) if organic
+pedo_tf_SRmax,	2	! Pedo-transfer equation for SRmax 	Options:	0: fixed parameter	1: global parameter	2: f(LU,porosity)
+pedo_tf_SRinit,	1	! Pedo-transfer equation for SRinit	Options:	0: fixed parameter	1: global parameter 
+pedo_tf_CHV,	1	! Pedo-transfer equation for CHV	Options:	0: fixed parameter	1: global parameter
+pedo_tf_Td,	2	! Pedo-transfer equation for Td 	Options:	0: fixed parameter	1: global parameter	2: f(lnT0)	
+pedo_tf_Smax,	3	! Pedo-transfer equation for Smax 	Options:	0: fixed parameter	1: global parameter	2: f(soil_depth,porosity)
+pedo_tf_B,	2	! Pedo-transfer equation for B, GWmodel needed   Options: 0: fixed parameter  2:f(soil texture)
+pedo_tf_Ks,	2	! Pedo-transfer equation for Ks, GWmodel needed   Options: 0: fixed parameter  2:f(soil texture)
+pedo_tf_T,	2	! Pedo-transfer equation for T, GWmodel needed   Options: 0: fixed parameter (estimated value map) 2:f(geology)
+pedo_tf_Sy,	2	! Pedo-transfer equation for Sy, GWmodel needed   Options: 0: fixed parameter (estimated value map) 2:f(geology)
+n_runs_SZM,	0	! number of extra runs to do per SZM parameter map - will modify the parameter map each time. 
+n_runs_LnTo,	0	! number of extra runs to do per lnTo parameter map - will modify the parameter map each time. 
+n_runs_SRmax,	0	! number of extra runs to do per SRmax parameter map - will modify the parameter map each time.
+n_runs_SRinit,	0	! number of extra runs to do per SRinit parameter map - will modify the parameter map each time.  
+n_runs_CHV,	0	! number of extra runs to do per CHV parameter map - will modify the parameter map each time. 
+n_runs_Td,	0	! number of extra runs to do per Td parameter map - will modify the parameter map each time. 
+n_runs_Smax,	0	! number of extra runs to do per Smax parameter map - will modify the parameter map each time. 
+save_GW_maps,  	0	! Set to 0 for faster runs. Set to 1 if you require saved GW data maps, clipped to the same area as your HRU input map. These can later be used as inputs. 
+set_GW_buffer,  3   !Default:Set GW buffer to 3km, this is a user-defined parameter.
+GW_maxiteration,  1500   !Default:Set max iteration number to 1500 in GW model, this is a user-defined parameter.
+GW_tolerance,   0     !Default 0:Set tolerance to 1e-6m in GW model, this is a user-defined parameter.
+end, 0			!must have this to signify end of control file
+
+

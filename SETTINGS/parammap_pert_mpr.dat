@@ -1,0 +1,10 @@
+! Changes to test different realisations of parameter maps
+min_add	max_add	min_multiply	max_multiply	param_name
+0	1	0	5	SZM
+0.5	2	1	2	LnTo
+0	0	0	0	SRmax
+0	0	0	0	SRinit
+0	0	0	0	CHV
+0	0	0	0	Td
+0	0	0	0	Smax
+
