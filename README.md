@@ -11,6 +11,7 @@ DECIPHeR-GW model is detailed in an open-access paper that will soon be submitte
 For any questions regarding usage or running the code, please feel free to contact yanchen.zheng@bristol.ac.uk.
 
 # DOI
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14113870.svg)](https://doi.org/10.5281/zenodo.14113870)
 
 
 
